@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&family=Tapestry&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fw-bold fs-3">Master games</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#tabuleiro" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Jogos de tabuleiro
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cartas" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Jogos de carta
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-loja" class="nav-link active">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="https://cdn.pixabay.com/photo/2020/12/15/17/34/chess-5834370_1280.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="https://cdn.pixabay.com/photo/2019/07/02/00/10/blood-rage-4311101_1280.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="https://cdn.pixabay.com/photo/2016/07/30/00/51/boat-1556264_1280.jpg" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        <section id="tabuleiro" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Jogos de
+                        <span class="text-colored">tabuleiro</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://67287.cdn.simplo7.net/static/67287/sku/jogos-de-tabuleiro-e-cardgames-expansoes-expansao-nucleum-australia-p-1715722071900.jpg" alt="">
+                                <h5 class="text-colored fw-bold mt-2">Expansão Nucleum: Australia</h5>
+                                <strong>R$: 59,99</strong>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://67287.cdn.simplo7.net/static/67287/sku/jogos-de-tabuleiro-e-cardgames-jogo-van-gogh-p-1714493266562.jpg" alt="">
+                                <h5 class="text-colored fw-bold mt-2">Jogo Van Gogh</h5>
+                                <strong>R$: 79,99</strong>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://67287.cdn.simplo7.net/static/67287/sku/jogos-de-tabuleiro-e-cardgames-expansoes-expansao-nucleum-australia-p-1715722071900.jpg" alt="">
+                                <h5 class="text-colored fw-bold mt-2">Expansão Nucleum: Australia</h5>
+                                <strong>R$: 59,99</strong>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://67287.cdn.simplo7.net/static/67287/sku/jogos-de-tabuleiro-e-cardgames-jogo-van-gogh-p-1714493266562.jpg" alt="">
+                                <h5 class="text-colored fw-bold mt-2">Jogo Van Gogh</h5>
+                                <strong>R$: 79,99</strong>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://67287.cdn.simplo7.net/static/67287/sku/jogos-de-tabuleiro-e-cardgames-expansoes-expansao-nucleum-australia-p-1715722071900.jpg" alt="">
+                                <h5 class="text-colored fw-bold mt-2">Expansão Nucleum: Australia</h5>
+                                <strong>R$: 59,99</strong>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://67287.cdn.simplo7.net/static/67287/sku/jogos-de-tabuleiro-e-cardgames-jogo-van-gogh-p-1714493266562.jpg" alt="">
+                                <h5 class="text-colored fw-bold mt-2">Jogo Van Gogh</h5>
+                                <strong>R$: 79,99</strong>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://67287.cdn.simplo7.net/static/67287/sku/jogos-de-tabuleiro-e-cardgames-expansoes-expansao-nucleum-australia-p-1715722071900.jpg" alt="">
+                                <h5 class="text-colored fw-bold mt-2">Expansão Nucleum: Australia</h5>
+                                <strong>R$: 59,99</strong>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://67287.cdn.simplo7.net/static/67287/sku/jogos-de-tabuleiro-e-cardgames-jogo-van-gogh-p-1714493266562.jpg" alt="">
+                                <h5 class="text-colored fw-bold mt-2">Jogo Van Gogh</h5>
+                                <strong>R$: 79,99</strong>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cartas" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Jogos de 
+                        <span class="text-colored">carta</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://67287.cdn.simplo7.net/static/67287/sku/jogos-de-tabuleiro-e-cardgames-jogo-ritus-p-1717007238268.jpg" alt="">
+                                <h5 class="text-colored fw-bold mt-2">Jogo Ritus</h5>
+                                <strong>R$: 49,99</strong>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://67287.cdn.simplo7.net/static/67287/sku/jogos-de-tabuleiro-e-cardgames-taco-gato-cabra-queijo-pizza--p-1625510431117.jpg" alt="">
+                                <h5 class="text-colored fw-bold mt-2">Jogo Taco Gato cabra queijo pizza</h5>
+                                <strong>R$: 39,99</strong>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://67287.cdn.simplo7.net/static/67287/sku/jogos-de-tabuleiro-e-cardgames-jogo-ritus-p-1717007238268.jpg" alt="">
+                                <h5 class="text-colored fw-bold mt-2">Jogo Ritus</h5>
+                                <strong>R$: 49,99</strong>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://67287.cdn.simplo7.net/static/67287/sku/jogos-de-tabuleiro-e-cardgames-taco-gato-cabra-queijo-pizza--p-1625510431117.jpg" alt="">
+                                <h5 class="text-colored fw-bold mt-2">Jogo Taco Gato cabra queijo pizza</h5>
+                                <strong>R$: 39,99</strong>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://67287.cdn.simplo7.net/static/67287/sku/jogos-de-tabuleiro-e-cardgames-jogo-ritus-p-1717007238268.jpg" alt="">
+                                <h5 class="text-colored fw-bold mt-2">Jogo Ritus</h5>
+                                <strong>R$: 49,99</strong>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://67287.cdn.simplo7.net/static/67287/sku/jogos-de-tabuleiro-e-cardgames-taco-gato-cabra-queijo-pizza--p-1625510431117.jpg" alt="">
+                                <h5 class="text-colored fw-bold mt-2">Jogo Taco Gato cabra queijo pizza</h5>
+                                <strong>R$: 39,99</strong>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://67287.cdn.simplo7.net/static/67287/sku/jogos-de-tabuleiro-e-cardgames-jogo-ritus-p-1717007238268.jpg" alt="">
+                                <h5 class="text-colored fw-bold mt-2">Jogo Ritus</h5>
+                                <strong>R$: 49,99</strong>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://67287.cdn.simplo7.net/static/67287/sku/jogos-de-tabuleiro-e-cardgames-taco-gato-cabra-queijo-pizza--p-1625510431117.jpg" alt="">
+                                <h5 class="text-colored fw-bold mt-2">Jogo Taco Gato cabra queijo pizza</h5>
+                                <strong>R$: 39,99</strong>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sobre-a-loja">
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="https://www.saopauloinfoco.com.br/wp-content/uploads/2017/07/Encounter-04-e1500917255985.jpg" class="d-block w-100 rounded" alt="">
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="section-title">Sobre <span class="text-colored">A loja</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo explicabo rem ea, nostrum tempore, repellendus error libero distinctio tenetur officia officiis perspiciatis delectus fuga magni quidem nisi iure ipsa vero?
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sed doloribus, odit quam illum mollitia blanditiis? Laborum possimus debitis, suscipit alias dicta necessitatibus, delectus adipisci soluta consequatur vel totam reprehenderit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale 
+                        <span class="text-colored">conosco</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu email</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone(opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Seu mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                endereço
+                            </h3>
+                            <p>Rua Jucelino n 77, Bairro bootstrap - Rio grande do sul - RS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

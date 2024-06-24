@@ -1,0 +1,61 @@
+body {
+    font-family: Fondamento, sans-serif;
+}
+
+.navbar {
+    background-color: #5e2aec;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #5e2aec;
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand, 
+.navbar-brand:hover,
+.nav-link.active:hover {
+    color: #fff;
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.navbar-toggler {
+    background-color: #f4e6ff;
+}
+
+.section-title {
+    font-family: Tapestry;
+}
+
+#sobre-a-loja, #tabuleiro {
+    background-color: #f4e6ff;
+}
+
+.text-colored {
+    color: #5e2aec;
+}
+
+.nav-link.active,
+#fale-conosco button {
+    background-color: #5e2aec;
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #5e2aec;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
